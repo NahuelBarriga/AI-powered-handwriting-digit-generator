@@ -1,8 +1,8 @@
-# 🧠 AI-Powered Handwriting Digit Generator
+# AI-Powered Handwriting Digit Generator
 
 An interactive web application that generates realistic handwritten digits (0-9) using a Conditional Variational Autoencoder (CVAE) trained on the MNIST dataset. Built with PyTorch and Streamlit.
 
-## 🌟 Features
+## Features
 
 - **Interactive Web Interface**: Easy-to-use Streamlit interface for generating digits
 - **Conditional Generation**: Select any digit (0-9) to generate multiple variations
@@ -10,7 +10,7 @@ An interactive web application that generates realistic handwritten digits (0-9)
 - **Real-time Generation**: Generate multiple handwritten digit samples instantly
 - **Adjustable Output**: Control the number of generated images (1-10)
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Python 3.x**
 - **PyTorch**: Deep learning framework for the CVAE model
@@ -18,14 +18,14 @@ An interactive web application that generates realistic handwritten digits (0-9)
 - **Matplotlib**: Visualization of generated digits
 - **MNIST Dataset**: Training data for the model
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this project, make sure you have the following installed:
 
 - Python 3.7 or higher
 - pip (Python package manager)
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -60,7 +60,7 @@ Before running this project, make sure you have the following installed:
    - Click the "🚀 Generate Images" button
    - View the generated handwritten digits displayed below
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AI-powered-handwriting-digit-generator/
@@ -73,7 +73,7 @@ AI-powered-handwriting-digit-generator/
 └── README.md                   # Project documentation
 ```
 
-## 🧬 Model Architecture
+## Model Architecture
 
 The project uses a **Conditional Variational Autoencoder (CVAE)** with the following architecture:
 
@@ -89,7 +89,7 @@ The project uses a **Conditional Variational Autoencoder (CVAE)** with the follo
 
 The model is trained on the MNIST dataset and can generate new digit variations by sampling from the learned latent space.
 
-## 🎯 How It Works
+## How It Works
 
 1. **User Input**: Select a digit (0-9) and specify the number of images to generate
 2. **Encoding**: The digit label is encoded as a one-hot vector
@@ -97,7 +97,7 @@ The model is trained on the MNIST dataset and can generate new digit variations 
 4. **Decoding**: The CVAE decoder generates images conditioned on both the latent vector and the digit label
 5. **Display**: Generated images are displayed in grayscale
 
-## 🔧 Training Your Own Model
+## Training Your Own Model
 
 If you want to retrain the model:
 
@@ -111,7 +111,7 @@ If you want to retrain the model:
    - Define and train the CVAE model
    - Save the trained weights to `cvae_mnist.pth`
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 - Report bugs
@@ -122,11 +122,11 @@ Contributions are welcome! Feel free to:
 
 This project is open source and available for educational and research purposes.
 
-## 👤 Author
+## Author
 
 **Nahuel Barriga**
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - MNIST Dataset: Yann LeCun, Corinna Cortes, and Christopher J.C. Burges
 - PyTorch Team for the excellent deep learning framework
@@ -134,4 +134,4 @@ This project is open source and available for educational and research purposes.
 
 ---
 
-**Enjoy generating handwritten digits! 🎨**
+**Enjoy generating handwritten digits!**
